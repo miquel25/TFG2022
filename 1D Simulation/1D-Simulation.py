@@ -16,6 +16,7 @@ equation = 'WE'
 
 
 ntau=5 #duration of the simulation in units of 𝜏=c·L
+K=2**6 #Number of space steps and frequencies
 
 gif = 1
 # 1 to turn on gif
@@ -36,8 +37,6 @@ beta=0.001
 gamma=0.001
 
 #Discretitzation
-K=2**6
-
 dx=L/K
 krange=np.arange(-K/2,K/2)
 k=fft.fftshift(krange)
