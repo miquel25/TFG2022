@@ -20,6 +20,7 @@ equation = 'WE'
 # if equation is different than any of these options it will simulate the Wave Equation
 
 ntau=3 #duration of the simulation in units of 𝜏=c·L
+K=2**6 #Number of space steps and frequencies
 
 gifDimensions = 3
 # 2 to turn on gif in 2D
@@ -40,8 +41,6 @@ beta=0.5
 gamma=0.5
 
 #Discretitzation
-K=2**6
-
 dx=L/K
 dy=dx
 krange=np.arange(-K/2,K/2)
@@ -218,4 +217,3 @@ plt.ylabel(r"$|a_k|$")
 plt.yscale('log')
 plt.tick_params(axis='both',direction='in',width=1,length=6)
 plt.show()
-
