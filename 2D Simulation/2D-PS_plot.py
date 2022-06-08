@@ -1,10 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
-plt.rc( 'font', size=18, family="DejaVu Sans" )
-plt.rc( 'text', usetex=True) #per format LaTex
-
 # Run only if all the txt files are created with the same K
 
 k = pd.read_csv('PS_k.txt',header=None)
