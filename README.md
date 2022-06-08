@@ -1,5 +1,6 @@
 # TFG2022
 Studying Weak Turbulence in non-linear Wave Dynamics
+
 Miquel de la Iglesia. UAB 2022
 
 There are two folders, one for the simulation in 1D and the other for the simulation in 2D
