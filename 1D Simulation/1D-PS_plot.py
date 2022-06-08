@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from scipy import fftpack as fft
 
-plt.rc( 'font', size=18, family="DejaVu Sans" )
-plt.rc( 'text', usetex=True)
-
 # Run only if all the txt files are created with the same K
 
 k = fft.fftshift(pd.read_csv('PS_k.txt',header=None)[0])
