@@ -6,7 +6,7 @@
 There are two folders, one for the simulation in 1D and the other for the simulation in 2D. In each folder there are three python files one for the main simulation, another to generate the initial conditions and one for plot all the Power Spectrums.
 <br />
 En each simulation it has to be put what equation you want to simulate, the duration, the number of space steps and choose if you want to generate a gif or not.
-<br />
+
 
 _IMPORTANT!_<br />
 The number of the space steps of the simulation must be the same than the space step of the initial conditions.
