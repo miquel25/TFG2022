@@ -4,11 +4,9 @@
 
 #### Miquel de la Iglesia Martí
 ##### Supervisat per Dr. Carlos Fernández Sopuerta, Institut de Ciències de l’Espai (ICE, CSIC i IEEC)
-There are two folders, one for the simulation in 1D and the other for the simulation in 2D. In each folder there are three python files one for the main simulation, another to generate the initial conditions and one for plot all the Power Spectrums.
+There are two folders: One for the one-dimensional simulations and the other for two-dimensional ones. Inside each folder there are three Python files: the corresponding to the main simulation, another one to generate the initial conditions and a third one to plot the Power Spectra that we obtain from the evolution.
 
-En each simulation it has to be put what equation you want to simulate, the duration, the number of space steps and choose if you want to generate a gif or not.
-
+For each simulation one has to introduce the equation that you would like to evolve, together with the time duration, the number of spatial grid steps. One can also choose whether or not you would like to generate a .GIF file out of the evolution data.
 
 _IMPORTANT!_<br />
-The number of the space steps of the simulation must be the same than the space step of the initial conditions.
-If it wanted to change the discretitzations first you have to run the initial conditions with the new space steps.
+The number of the spatial grid points for the simulation must be the same as the one used to generate the initial conditions. If you would like to change the discretization,  you should first run the code to generate the initial conditions with the new number of spatial grid points. 
